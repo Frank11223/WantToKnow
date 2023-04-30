@@ -1,0 +1,19 @@
+{
+  "name": "WantToKnow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Frank11223/WantToKnow.git",
+  "author": "frank <206016050@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --temp .temp",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "cz-customizable": "^7.0.0",
+    "vuepress": "^1.9.9"
+  }
+}
