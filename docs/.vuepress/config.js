@@ -9,6 +9,7 @@ module.exports = {
           collapsable: false, 
           children: [
             ['js_data_type', '数据类型'],
+            ['browser', '浏览器原理']
           ],
         },
       ],

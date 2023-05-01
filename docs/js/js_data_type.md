@@ -1,5 +1,4 @@
-# 问渠哪得清如许
-# 面试官：说说JavaScript中的数据类型？存储上的差别？
+# 问渠哪得清如许之JavaScript中的数据类型
 
 ::: tip
 前言
@@ -43,7 +42,7 @@ console.log(-0/+0); // NaN
 ```
 
 Undefined
-Undefined 类型只有一个值，就是特殊值 undefined。当使用 var 或 let 声明了变量但没有初始化时，就相当于给变量赋予了 undefined 值
+`Undefined` 类型只有一个值，就是特殊值 `undefined`。当使用 `var` 或 `let` 声明了变量但没有初始化时，就相当于给变量赋予了 `undefined` 值
 
 ``` js
 let message;
@@ -82,7 +81,7 @@ console.log(null == undefined); // true
 ```
 
 Boolean
-Boolean （布尔值）类型有两个字面值： true 和 false
+Boolean （布尔值）类型有两个字面值： `true` 和 `false`
 
 通过Boolean可以将其他类型的数据转化成布尔值
 
@@ -117,7 +116,7 @@ console.log(fooSymbol == otherFooSymbol); // false
 - Function
 
 ### Object
-创建object常用方式为对象字面量表示法，属性名可以是字符串或数值
+创建`object`常用方式为对象字面量表示法，属性名可以是字符串或数值
 
 ``` js
 let person = {
